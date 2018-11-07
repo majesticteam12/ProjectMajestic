@@ -32,6 +32,7 @@ bool window::init() {
 		return false;
 	}
 	glfwMakeContextCurrent(_window);
+	glfwSwapInterval(1);
 	return true;
 }
 
